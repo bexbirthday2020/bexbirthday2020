@@ -16,7 +16,7 @@ $(document).ready(function() {
         if(event.keyCode == 13)
         {
             console.log("nextpage.");
-            location.replace("./table1.html")
+            location.replace("./table1.html");
         }
   });
 });

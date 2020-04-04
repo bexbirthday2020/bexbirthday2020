@@ -1,0 +1,19 @@
+.background
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/crash.png");
+    background-size: cover;
+}
+.key
+{
+   position: absolute;
+   bottom: 5vh;
+   left: 20px;
+}
+.key input
+{
+    background-color: transparent;
+    color: white;
+    width: 200px;
+}

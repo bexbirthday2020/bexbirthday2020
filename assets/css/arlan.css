@@ -1,0 +1,60 @@
+@font-face
+{
+    font-family: "bloody";
+    src: url("../css/blood.otf");
+}
+.background
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/bg4.jpg");
+    background-size: cover;
+}
+
+
+.heading h1
+{
+    font-family: "bloody";
+    color: red;
+    font-size: 80px;
+}
+.container
+{
+    width: 50vw;
+}
+.page
+{
+    display: none;
+    background-color: #F2EBDB;
+    border-radius: 20px;
+    box-shadow: 0 0 14px black;
+}
+.page p
+{
+    color: black;
+    font-size: 20px;
+    padding: 10px;  
+    font-family: 'Comic Neue', cursive;
+}
+.rebus1
+{
+    width: 60%;
+    margin-left: 20%;
+}
+.input-group
+{
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Comic Neue', cursive;
+    padding-bottom: 20px;
+}
+#inp
+{
+    margin-left: 20%;
+    width: 50%;
+}
+#btn
+{
+    width: 10%;
+    background-color: rgb(32, 28, 28);
+}

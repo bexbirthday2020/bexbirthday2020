@@ -29,20 +29,41 @@ body
 }
 .container
 {
-    width: 60vw;
+    width: 50vw;
 }
 .page
 {
     display: none;
     background-color: #F2EBDB;
+    border-radius: 20px;
+    box-shadow: 0 0 14px black;
 }
 .page p
 {
     color: black;
     font-size: 20px;
+    padding: 10px;  
+    font-family: 'Comic Neue', cursive;
 }
 .sudoku
 {
+    width: 60%;
+    margin-left: 20%;
+}
+.input-group
+{
+    width: 100%;
+    font-family: 'Comic Neue', cursive;
+    padding-bottom: 20px;
+}
+#inp
+{
+    margin-left: 20%;
     width: 50%;
-    margin-left: 25%;
+}
+#btn
+{
+    width: 10%;
+    background-color: rgb(32, 28, 28);
+    color: white;
 }
